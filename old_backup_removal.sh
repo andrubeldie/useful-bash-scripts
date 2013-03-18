@@ -6,7 +6,7 @@
 # my use case is this:
 # I have a script that does DB backup every half hour - paranoia, right? :)
 #
-# for the last 24 hours I need to be sure I have all the back-ups
+# for the last 24 hours I will keep all the back-ups
 #
 # for the last 72 hours to 24 hours I need to keep some
 #     of the backups (accessed at hours 1,7,14,19)
