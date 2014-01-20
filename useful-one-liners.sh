@@ -13,6 +13,10 @@
 # load CSV or any other file into a table in MySQL
 # LOAD DATA LOCAL INFILE '/tmp/some_file.txt' INTO TABLE entries FIELDS TERMINATED BY ' | ' LINES TERMINATED BY '\n';
 
+# export any result set from MySql query to CSV
+# select * from table_name where 1 ... into outfile '/tmp/some_file_name.csv' fields terminated by ',' enclosed by '"' lines terminated by '\n';
+
+
 # bulk rename files. it may not be available under other *nix than Debian/Ubuntu based distros
 # dry run
 # rename -n 's/seach_this_perl_regexp/replace_with_this_perl_regexp/' *.file.filter.*
